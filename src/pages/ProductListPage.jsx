@@ -25,13 +25,6 @@ const ProductListPage = () => {
                 <div className="text-gray-500">
                     <span className="font-medium">{filtered.length}</span> products
                 </div>
-
-                <div className="flex gap-2">
-
-                    <button className="px-3 py-1 rounded-md border border-blue-600 bg-blue-100 text-blue-700 shadow-sm font-medium">
-                        Table
-                    </button>
-                </div>
             </div>
 
             <div className="bg-white rounded-lg shadow overflow-x-auto">
